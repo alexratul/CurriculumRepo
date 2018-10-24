@@ -1,0 +1,185 @@
+	%-------------------------
+	% Resume in Latex
+	% Author : Alejandro Aguilar Mora
+	% License : MIT
+	%------------------------
+	
+	\documentclass[letterpaper,11pt]{article}
+	
+	\usepackage{latexsym}
+	\usepackage[empty]{fullpage}
+	\usepackage{titlesec}
+	\usepackage{marvosym}
+	\usepackage[usenames,dvipsnames]{color}
+	\usepackage{verbatim}
+	\usepackage{enumitem}
+	\usepackage[hidelinks]{hyperref}
+	\usepackage{fancyhdr}
+	\usepackage[english,spanish]{babel}
+	\usepackage[utf8]{inputenc}
+	
+	\pagestyle{fancy}
+	\fancyhf{} % clear all header and footer fields
+	\fancyfoot{}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+	
+	% Adjust margins
+	\addtolength{\oddsidemargin}{-0.5in}
+	\addtolength{\evensidemargin}{-0.5in}
+	\addtolength{\textwidth}{1in}
+	\addtolength{\topmargin}{-.5in}
+	\addtolength{\textheight}{1.0in}
+	
+	\urlstyle{same}
+	
+	\raggedbottom
+	\raggedright
+	\setlength{\tabcolsep}{0in}
+	
+	% Sections formatting
+	\titleformat{\section}{
+	  \vspace{-4pt}\scshape\raggedright\large
+	}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+	
+	%-------------------------
+	% Custom commands
+	\newcommand{\resumeItem}[2]{
+	  \item\small{
+	    \textbf{#1}{: #2 \vspace{-2pt}}
+	  }
+	}
+	
+	\newcommand{\resumeSubheading}[4]{
+	  \vspace{-1pt}\item
+	    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+	      \textbf{#1} & #2 \\
+	      \textit{\small#3} & \textit{\small #4} \\
+	    \end{tabular*}\vspace{-5pt}
+	}
+	
+	\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+	
+	\renewcommand{\labelitemii}{$\circ$}
+	
+	\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+	\newcommand{\resumeItemListStart}{\begin{itemize}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+	
+	%-------------------------------------------
+	%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\begin{document}
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	  \textbf{\href{http://sourabhbajaj.com/}{\Large Alejandro Aguilar Mora}} & Email : \href{mailto:alexratul12@gmail.com}{alexratul12@gmail.com}\\
+	  \href{https://www.linkedin.com/in/alejandro-aguilar-mora-05b44599/}{https://www.linkedin.com/in/alejandro-aguilar-mora-05b44599/} & Mobile : +506-8811-2179 \\
+	\end{tabular*}
+	
+	
+	%-----------EDUCATION-----------------
+	\section{Education}
+	  \resumeSubHeadingListStart
+	    \resumeSubheading 
+	    {Tecnológico de Costa Rica}{Cartago, Costa Rica}
+	      {Master of Information Systems;}{Feb. 2014 -- Jun. 2018}
+	    \resumeSubheading
+	      {Tecnológico de Costa Rica}{Cartago, Costa Rica}
+	      {Bachelor of Computer Sciences;}{Feb. 2008 -- March. 2014}
+	  \resumeSubHeadingListEnd
+	
+	
+	%-----------EXPERIENCE-----------------
+	\section{Experience}
+	  \resumeSubHeadingListStart
+	
+	    \resumeSubheading
+	      {Microfocus}{UltraPark I, Heredia}
+	      {Senior Software Engineer}{May 2018 - Present}
+	      \resumeItemListStart
+	        \resumeItem{Tensorflow}
+	          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+	        \resumeItem{Apache Beam}
+	          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+	      \resumeItemListEnd
+	
+	    \resumeSubheading
+	   {Microfocus}{UltraPark I, Heredia}
+	   {Software Automation Engineer}{Jun 2016 - Dec 2018}
+	     \resumeItemListStart
+	       \resumeItem{Automation software}
+	          {Develop an functional software framework using the current web automation technologies and the latest software developing patterns. With the goal to ensure that the QA Automation team got the best tools for writing automation code to support the QA processes for the ArcSight Investigate team.}
+	        \resumeItem{Automated test cases creation}
+	         {Translate a suite of manual test cases using the automation software in order to create a software for testing this cases on the ArcSight Investigate.}
+	        \resumeItem{Automation software Architecture} 
+            {Create an functional software architecture for the creation, testing and execution of the regression test suites. For the QA Automation testing to the  ArcSight Investigate software product.}	         
+	      \resumeItemListEnd
+	
+	    \resumeSubheading
+	      {Intel}{La Ribera de Belén, Heredia}
+	      {Software Engineer}{Sep 2014 - April 2016}
+	      \resumeItemListStart
+	        \resumeItem{Software maintenance}
+	          {Ensure the stability and the bug fixing of all the software tools supported by the MDO Software unit to the MDO Organization.}
+	        \resumeItem{Software development}
+	          {The creation of new software tools or the improvement of the current ones derived from the request by the clients or from an inside processes to determine the current value of the software for the organization.}
+	        \resumeItem{Customer service}
+	          {Using a in house ticket platform recollect feedback from out internal customers, for software bug reporting or enhancement requests to the current software portfolio.}
+	      \resumeItemListEnd
+		
+	    \resumeSubheading
+	      {Tecnológico de Costa Rica}{Cartago, Costa Rica} 
+	      {Teaching Assistant}{Jun 2013 - Dec 2013}
+	      \resumeItemListStart
+	        \resumeItem{Teaching Assistant - Operative Systems Principles}
+	          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in checking an helping with the evaluation of assignment and exam conducted by the teacher of the course}
+	      \resumeItemListEnd
+	
+	  \resumeSubHeadingListEnd
+	
+	
+	%-----------PROJECTS-----------------
+	\section{Projects}
+	  \resumeSubHeadingListStart
+	    \resumeSubItem{QuantSoftware Toolkit}
+	      {Open source python library for financial data analysis and machine learning for finance.}
+	    \resumeSubItem{Github Visualization}
+	      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+	    \resumeSubItem{Recommendation System}
+	      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+	    \resumeSubItem{Mac Setup}
+	      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+	  \resumeSubHeadingListEnd
+	
+	
+	%--------PROGRAMMING SKILLS------------
+	\section{Programming Skills}
+	  \resumeSubHeadingListStart
+	    \item{
+	      \textbf{Languages}{: Python, C++, SQL, Java, C\#,Bash}
+	      \hfill
+	    }
+    
+        \item{
+    	      \textbf{Technologies}{: Jenkins,Gradle,Selenium,Expect,Windows,Linux,SharePoint,MobaXterm,REST,Web services, spring}
+    	      \hfill
+        }
+ 
+         \item{
+ 	         \textbf{IDE's}{: IntelliJ 2018, Visual Studio 2008,2012, 2018 Community version}
+ 	         \hfill
+             }
+    
+        \item{
+	        \textbf{Version Control software tools}{:Git, Perforce, Microsoft Team foundation Server}
+    	    \hfill
+        }  
+    
+	\resumeSubHeadingListEnd
+	
+	
+	%-------------------------------------------
+	\end{document}
